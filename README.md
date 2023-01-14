@@ -2,12 +2,6 @@
 
 Pure NAPI version of [trash](https://www.npmjs.com/package/trash).
 
-### Why?
-
-While bundling the module `trash` with Webpack, the module has to be declared as a external module since it uses binary executables under the hood. This module implements a pure NodeJS NAPI implementation to overcome this issue.
-
-Moreover, due to usage of executables, when `trash` is being used with Electron, some Antivirus softwares detects the executables as malicious software.
-
 ### Install
 
 ```bash
