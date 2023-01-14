@@ -35,7 +35,7 @@ jobs:
 
       - run: yarn install --frozen-lockfile --ignore-scripts
 
-      - run: npx -q prebuild --strip --arch arm64 -u ${{ github.token }}
+      - run: npx -q prebuild -t 3 -r napi --strip --arch arm64 -u ${{ github.token }}
         if: ${{ matrix.target.name == 'macos' }}
 
-      - run: npx -q prebuild --strip --arch x64 -u ${{ github.token }}
+      - run: npx -q prebuild -t 3 -r napi --strip --arch x64 -u ${{ github.token }}

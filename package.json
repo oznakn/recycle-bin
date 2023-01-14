@@ -1,14 +1,28 @@
 {
-    "name": "@oznakn/trash",
-    "version": "0.1.6",
+    "name": "recycle-bin",
+    "version": "0.1.1",
     "license": "MIT",
     "main": "index.js",
     "types": "index.d.ts",
     "gypfile": true,
+    "author": {
+        "name": "Ozan Akın",
+        "email": "ozn.akn@gmail.com"
+    },
     "repository": {
         "type": "git",
-        "url": "https://github.com/oznakn/node-trash.git"
+        "url": "https://github.com/oznakn/recycle-bin.git"
     },
+    "bugs": {
+        "url": "https://github.com/oznakn/recycle-bin/issues"
+    },
+    "homepage": "https://github.com/oznakn/recycle-bin#readme",
+    "keywords": [
+        "recycle",
+        "bin",
+        "trash",
+        "rm"
+    ],
     "files": [
         "binding.gyp",
         "index.js",
